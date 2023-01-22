@@ -3,5 +3,11 @@
 <html>
     <body>
         <p>Hi this is a test!</p>
+        <form action="{{url_for('submit')}}" method="post">
+            <input type="text" name="text_field">
+            <input type="submit" value="Submit">
+        </form> 
+        <div id="input-container">
+        </div>
     </body>
 </html>
